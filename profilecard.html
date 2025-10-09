@@ -90,6 +90,58 @@
         img {
             border-radius: 10%;
         }
+        @media (max-width: 750px) {
+            .card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 20px;
+                width: 90%;
+                max-width: 500px;
+            }
+
+            .square {
+                padding: 0;
+                margin-bottom: 15px;
+            }
+
+            .content {
+                padding: 10px 15px;
+                font-size: 1rem;
+            }
+
+            .portfolio,
+            .contact {
+                justify-content: center;
+                margin: 10px 0;
+            }
+
+            .name h2 {
+                font-size: 1.5rem;
+            }
+
+            .btn {
+                width: 100px;
+                height: 40px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 10px;
+            }
+
+            .content {
+                font-size: 1rem;
+            }
+
+            .btn {
+                width: 90px;
+                height: 30px;
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 
